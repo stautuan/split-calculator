@@ -1,7 +1,7 @@
 ### Screenshot
 
-![desktop](images/my-solution-desktop.jpg)
-![mobile](images/my-solution-mobile.jpg)
+![desktop](my-solution-desktop.jpg)
+![mobile](my-solution-mobile.jpg)
 
 ### Built with
 
