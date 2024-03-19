@@ -1,12 +1,11 @@
 ### Screenshot
 
-![desktop](images/my-solution-desktop.jpgmy-solution-desktop.jpg)
+![desktop](images/my-solution-desktop.jpg)
 ![mobile](images/my-solution-mobile.jpg)
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - JavaScript
