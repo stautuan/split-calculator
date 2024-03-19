@@ -9,6 +9,7 @@
 - Flexbox
 - CSS Grid
 - JavaScript
+- BEM
 
 ### What I learned
 

@@ -1,19 +1,19 @@
 "use strict";
 
-const bigInput = document.querySelectorAll(".big-input");
-const billInput = document.querySelector(".bill-input");
-const peopleInput = document.querySelector(".people-input");
-const tipButtons = document.querySelectorAll(".buttons");
-const customTip = document.getElementById("custom-tip");
+const calcInput = document.querySelectorAll(".calculator__input");
+const billInput = document.querySelector(".calculator__input-bill");
+const peopleInput = document.querySelector(".calculator__input-people");
+const tipButtons = document.querySelectorAll(".btn");
+const customTip = document.getElementById("calculator__tip-custom");
 const warning = document.querySelector(".warning");
-const tipPersonBox = document.querySelector(".tip-person-box");
-const totalPersonBox = document.querySelector(".total-person-box");
-const amountBox = document.querySelectorAll(".amount-box");
-const resetButton = document.querySelector(".reset");
+const tipPersonBox = document.querySelector(".calculator__amount--tip");
+const totalPersonBox = document.querySelector(".calculator__amount--total");
+const amountBox = document.querySelectorAll(".calculator__amount");
+const resetButton = document.querySelector(".calculator__btn--reset");
 
 // resetting the app
 const resetApp = function () {
-  bigInput.forEach(function (inputElement) {
+  calcInput.forEach(function (inputElement) {
     inputElement.setAttribute("placeholder", "0");
     inputElement.value = "";
   });

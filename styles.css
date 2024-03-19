@@ -15,7 +15,7 @@ body {
   gap: 80px;
 }
 
-.container {
+.calculator {
   background-color: #fff;
   width: 921px;
   height: 481px;
@@ -28,7 +28,7 @@ body {
 
 /* WHITE BOX */
 
-.input-container {
+.calculator__container--white {
   width: 413px;
   height: 417px;
   display: flex;
@@ -37,14 +37,14 @@ body {
   justify-content: space-around;
 }
 
-.input-label {
+.calculator__label--white {
   display: block;
   color: #5e7a7d;
   margin-bottom: 8px;
 }
 
-.bill,
-.people {
+.calculator--bill,
+.calculator--people {
   position: relative;
 }
 
@@ -78,11 +78,11 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-.big-input::placeholder {
+.calculator__input::placeholder {
   color: #a4b8b9;
 }
 
-.select-tip div {
+.calculator--select-tip div {
   width: 379px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -90,7 +90,7 @@ input::-webkit-inner-spin-button {
   justify-content: center;
 }
 
-.tip {
+.calculator__tip {
   background-color: #00494d;
   font-family: inherit;
   font-size: 24px;
@@ -113,19 +113,19 @@ button:active {
   color: #00494d;
 }
 
-#custom-tip {
+#calculator__tip-custom {
   background-color: #f4fafa;
   color: #00494d;
   text-align: right;
   padding: 0 10px;
 }
 
-#custom-tip::placeholder {
+#calculator__tip-custom::placeholder {
   color: #5e7a7d;
   text-align: center;
 }
 
-.number-label {
+.calculator__label--people {
   display: flex;
   justify-content: space-between;
 }
@@ -140,7 +140,7 @@ button:active {
 
 /* GREEN BOX */
 
-.output-container {
+.calculator__container--green {
   background-color: #00494d;
   width: 413px;
   height: 417px;
@@ -151,29 +151,29 @@ button:active {
   padding: 40px;
 }
 
-.ouput-details {
+.calculator__output {
   display: flex;
   flex-direction: column;
 }
 
-.box {
+.calculator__per-person {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 14px 0;
 }
 
-.output-label {
+.calculator__label--green {
   color: #c5e4e7;
   font-size: 15px;
 }
 
-.output-label span {
+.calculator__label--green span {
   color: #7f9c9f;
   font-size: 13px;
 }
 
-.amount-box {
+.calculator__amount {
   font-size: 48px;
   color: #26c0ab;
   width: 200px;
@@ -183,7 +183,7 @@ button:active {
   justify-content: flex-end;
 }
 
-.reset {
+.calculator__btn--reset {
   background-color: #26c0ab;
   font-family: inherit;
   font-size: 20px;
@@ -212,52 +212,52 @@ button:active {
     margin-top: 50px;
   }
 
-  .container {
+  .calculator {
     width: 375px;
     height: 789px;
     flex-direction: column;
     padding: 32px 24px;
   }
 
-  .input-container {
+  .calculator__container--white {
     width: 327px;
     height: 435px;
     justify-content: space-between;
   }
 
-  .big-input {
+  .calculator__input {
     width: 311px;
   }
 
-  .select-tip div {
+  .calculator--select-tip div {
     width: 310px;
     height: 185px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
 
-  .tip {
+  .calculator__tip {
     width: 146px;
     margin: 8px;
   }
 
-  .output-container {
+  .calculator__container--green {
     width: 327px;
     height: 257px;
     padding: 24px;
   }
 
-  .box {
+  .calculator__per-person {
     margin: 10px 0;
   }
 
-  .amount-box {
+  .calculator__amount {
     font-size: 32px;
     width: 150px;
     height: 40px;
   }
 
-  .reset {
+  .calculator__btn--reset {
     width: 281px;
   }
 
